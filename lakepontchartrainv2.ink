@@ -1,7 +1,7 @@
 INCLUDE functions.ink
 INCLUDE before.ink
 
-The rain had long since stopped. Some sort of flash storm, apparently. Still, you sat drenched, the panic blanket wrapped around you slowly becoming just as wet and cold.
+The rain had long since stopped. Some sort of flash storm, apparently. Still, you sat drenched, the panic blanket wrapped around you slowly becoming just as wet and cold as your clothes.
     * You don't think they're called "panic blankets," officially speaking.
  
  -

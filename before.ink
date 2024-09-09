@@ -1,5 +1,6 @@
 TODO: figure out how to format the before section differently
 TODO: fix copied text from old game to past tense
+TODO: add mention of going to NO in "escape" choice before the menu scene
 == explain
 = trip
 #CLEAR
@@ -93,6 +94,59 @@ You spot an exit sign that actually advertises more than just RV hookup sites an
     * "Just a salad."
         ~alter(food,"salad")
 -
+#CLEAR
+    Jules nodded as she finished writing the orders. "Got it. Holler if you need anything else in the meantime," she said, then moved on to checking the other tables.
+    {food == "crawfish":
+        Derek raised his fist and you bumped it, then both of you offered one to Amber. She looked between the two of you with an eyebrow raised, but gave you a bump each.
+        }
+    {food == "gator":
+        "Dude, seriously? Hell yeah! Let me know how it is." Derek raised his hand for a high five.
+        "Not going to try it?" you asked as you high fived him hard enough to make him wince a little.
+        Derek patted his gut. "This baby is a delicate machine that could go haywire from a stray dust particle. I don't want to risk it while we're on the road."
+        "I'll pass, too," Amber said. <>
+            { reason == "wedding":
+                "I don't think gator meat will make you queasy, but I don't want to take any chances right before the wedding."
+                "Tomorrow's just the wedding rehersal dinner. A little adventurous eating isn't going to knock me out for a whole day, much less two," you assured her.
+                She shrugged. "Well, <>
+                - else:
+                "But <>
+                }
+            as long as you stay well enough to drive the rest of the way, I applaud your attempt to diversify your pallette.
+        }
+    {food == "gumbo":
+        "You can't go wrong with gumbo," Amber said.
+        "It's a classic for a reason," Derek agreed.
+        "Absolutely. Though now I'm not sure if I'll be more disappointed if it's better than <>
+            { reason == "escape":
+                ..." You stopped short. The three of you had avoided talking
+                about anything related to back home up to this point. None of you have acknowledged that you may never go back to those local restaurants you've loved for so long.
+                Derek cleared his throat.
+                "I'm sure it will be great," Amber said. "No reason to compare it to anything else."
+                - else:
+                the Creole Kithen, or if it's worse. If it's better, I have to live knowing that anything I get there is inferior to this place hundreds of miles away, but if it's worse, then I'll just wish I was eating gumbo back home, you know?"
+                Derek laughed. "I think you might be overthinking this, dude."
+                "For real!" Ashley agreed, gesturing with the rolled up silverware she was toying with. "We're <>
+                    {reason == "wedding":
+                        about to attend a blowout wedding of two of our best friends. <>
+                    - else:
+                        <i>finally</i> taking a well-deserved vacation. <>
+                        }
+                        Relax a little!"
+                        "Yeah! I bet whatever {reason == wedding: they serve at the wedding|we eat while actually in the city} will be <i>way</i> better than anything we can get back home, anyway," Derek said with a grin.
+                        
+                }
+        }
+    {food == "salad":
+        "Really? A salad?" Derek asked increduously.
+        You shrug. "I'm saving room for when we actually get to New Orleans."
+        It was Amber's turn to look incredulous. "I think I'm going to crash as soon as we get to {reason == "escape":a|the} hotel, not go out for a big dinner."
+        "It'll just be me and Derek then, right Derek?"
+        He laughed. "Maybe if you twist my arm enough, but I think I'm with Am-bear on this one."
+        "Then I guess I'll just have a head start on experiencing the city," you said with a grin.
+        }
+    * ->
+    -
+    #CLEAR
     
 -> officer_questions.next
 
