@@ -54,13 +54,13 @@ You realize the officer is waiting for you to say something. He had tried to ask
 You rub your eyes with both hands. You've been driving since this morning, stopping only for the essentials. Derek and Amber got to nap in the back when they felt like it, but you volunteered to drive for the first big stretch. That is to say, you were tired as all hell, even without...
 You shake your head. Focus.
 * You decided to go on a road trip together, just for the hell of it. <>
-    ~ reason = "road trip"
+    ~ reason = "trip"
     -> explain.trip
 * Two of your friends were having a destination wedding. <>
     ~ reason = "wedding"
     -> explain.wedding
 * The three of you just needed to get away. <>
-    ~ reason = "get away"
+    ~ reason = "escape"
     -> explain.escape
 
     = next

@@ -147,7 +147,20 @@ You spot an exit sign that actually advertises more than just RV hookup sites an
     * ->
     -
     #CLEAR
-    
+    The food was magnificent. {food == "salad":Even the simple salad shined with fresh vegetables and a homemade dressing.}{food == "gumbo":{reason == "escape":You don't even think about the gumbo back home.|Leagues better than what you're used to back home.}}{food == "gator":It was weird, for sure. It tasted fishy, which you weren't expecting, and not as chewy as you were afraid of. Maybe you'll try adventurous menu options more often!}{food == "crawfish":You don't have words. The three of you barely talked as you scarfed down the etouffee. You had to resist the urge to lick the bowl, though you saw Amber take a subtle swipe of her finger through it.|Derek and Amber seemed even more enthusiastic about their meal than were, scraping their bowls for the last hints of rice. You raised and eyebrow at them, but they didn't seem to understand why.} Meal finished, the three of you relaxed back into your booths, pleasantly full. 
+    Jules came back around. "I take it there were no problems with your food?" she asked with a small smile{food != "crawfish": that seemed aimed more at Derek and Amber than you}.
+    You all shook your heads. "No, it was fantastic!" Amber added, you and Derek chiming in with your agreement.
+    "Good to hear. Can I get y'all anything else, or are you ready for the check?"
+    You looked at your watch. An hour's diversion wasn't <i>too</i> bad, but you really needed to get back on the road. {reason == "wedding": You wanted to make sure to check into the hotel before nightfall. You're sure Finn and Jasper will wake the three of you up bright and early for a group breakfast."}{reason == "trip":You wanted to get to your hotel before dark. Less of a chance of getting lost that way.}{reason == "escape":You wanted to get to New Orleans before dark and hope you found a cheap motel that still had rooms available. If not, you'd probably have to drive around to the smaller towns looking for one. You needed to make your pool of money stretch as long as you could.} "Just the check, please."
+    Within a few minutes, the three of you were back on the road, spirits brighter than they were before you stopped.
+    "Flip on some tunes, will ya?" Derek called from the back.
+    You obliged, quickly finding a station playing some classic Southern soul: Lee Moses followed by Dorothy Moore, then Billy Ray Charles.
+    * You've long been a fan of this kind of music[.], and you lose yourself to your nostalgia. <>
+    * This isn't usually your style[.], but it's really resonating with you right now. <>
+    -
+    You tapped your fingers on the steering wheel to the beat, as best you could, barely paying attention to the passing signs and scenery on the empty road.
+    You were just starting to jam out to "Slip Away" by Clarence Carter when it was abruptly interrupted by the loud sting of what was, presumably, one of the local radio's segments, which seemed more like a tourism advertisement for the area.
+    <i>"
 -> officer_questions.next
 
 
