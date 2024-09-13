@@ -207,7 +207,25 @@ You spot an exit sign that actually advertises more than just RV hookup sites an
         ->officer_questions.pull_over
         * [Keep driving.]
         ->officer_questions.keep_driving
+    =motel
+    You looked at your phone, trying to pull up a map to get some sense of where you were and figure out what your options were, but there was no signal. Amber and Derek had the same result. You pulled out the old atlas you've kept in the car since before smart phones existed and hoped the roads hadn't changed too much since it was made.
+    Just as you had finally flipped to Louisiana, there was a banging on your window. You turned and recoiled as a man in ragged clothing, long knotted hair plastered to his face and neck from the rain, banged again on your window. His eyes went wide, wilder than they were before as he registered that the three of you were looking at him.
+    "Come down!" he bellowed through the glass.
+    "Sir, do you need help?" Amber asked loudly as she squeezed through the gap between the front seats to better grab his attention.
+    He stared at her for a moment. Then his mouth opened wide. "Come down! Down to the lake! The lake!"
+    He stopped again and seemed to examine <>
+    {food == "crawfish":
+         the three of you. Then he smiled, his chipped and discolored teeth on full display. "You have rested," he said, his voice so quiet you weren't quite sure how you could hear it through the glass. "You have fed." Suddenly his fists slammed <>
+        - else:
+            Amber and Derek closely. He muttered something under his breath that you couldn't hear through the window then suddenly slammed his fists <>
         
+        }
+        onto the window once more. "You will see!" he shouted again, almost ear splitting this time.
+    "Get us the <i>fuck</i> out of here!" Derek yelled.
+    You cranked up the car and the man backed away a step. Before you could see what his next move was, you slid the stick into gear and slammed on the gas, fishtailing wildly through the parking lot and onto the road.
+    You head back to the Interstate, operating almost more on memory than sight as your wipers struggled to keep up with the rain.
+    -
+    -> road_through_woods
     =road_through_woods
     -
 -> officer_questions.next

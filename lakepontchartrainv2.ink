@@ -83,8 +83,8 @@ You shake your head. Focus.
     You almost jump out of your skin. "What?"
     "The motel. What was it called?" he repeats impatiently. "And the town, if you know it."
     You rub your temples, trying to remember. "Choctaw? I think? Somewhere near Slidel. Maybe. It was hard to tell anything in the rain."
-    The officer jots that down in his notebook.
-    ->next
+    The officer jots that down in his notebook, then looks up at you. "Go on."
+    ->explain.motel
     = keep_driving
     "You kept driving?" the officer asks incredulously.
     You almost jump out of your skin. "What?"
