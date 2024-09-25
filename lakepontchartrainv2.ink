@@ -1,5 +1,7 @@
 INCLUDE functions.ink
 INCLUDE before.ink
+INCLUDE lake.ink
+
 
 TODO: Figure out the roads they're on a bit better. They probably get off 55 and onto 12 before this starts
 
@@ -91,7 +93,59 @@ You shake your head. Focus.
     "You said you were in a downpour, barely able to see the road. And you thought it was wise to keep driving through it?"
     You shrug. {reason=="wedding":I didn't want to risk being late to the wedding.}
     The officer sighs and mutters something about the folly of youth. "Go on, then."
-    ->explain.road_through_woods
-    = next
+    ->explain.reckless
+    = conclude
+    "And that's when you called 911?" the officer asks.
+    You shrug. It was all a blur.
+    He sighs and closes his notebook. "Well now. That's quite a story you've cooked up, and I can't tell if you're covering something up or just got knocked on the head too many times when your car got swept up in the flood."
+    You stare at him.
+    * [You're angry.]
+        "Are you serious?" you ask, loud enough that you see some emergency workers glance over for a moment before continuing with their work. "My friends are <i>out there</i>! Drowning, or --"
+        You can't say the word.
+        The officer seems unmoved.
+        "Why would I lie about this?" you demand.
+        "In my line of work? That answer tends to be 'guilt,'" he says bluntly.
+        You bark out a laugh. "Guilt! To cover what? There are no bodies--" You break on the word.
+        <i>Bodies.</i>
+    
+        
+    * [You're exhausted.]
+        "Believe me or don't. That's your choice." It doesn't feel real to you. Nothing does, not even sitting here, wrapped in a damp blanket holding a now cold cup of coffee.
+ -   
+    You almost see a flash of sympathy on the officer's face. "Listen, we still need to get this sorted. Let me ask you--"
+    "If you have any more questions," you interrupt, "you'll find them there."
+    You don't have to point; the officer looks at the lake.
+    He tries to ask you more, you think, but you can't hear him.
+    You just hum that weird little jingle you can't get out of your head, even through all of this.
+    <i>Come down to Lake Ponchartrain</i>
+    <i>Wade to where the shallows break</i>
+    <i>That's where you will get to see</i>
+    <i>Everything the water can be</i>
+    -> next
+    =begin
+    "So you said you dialed 911 when you reached the lake?" the officer prompts.
+    You look at him and nod.
+    "What then? Clearly something else happened, or it wouldn't just be you here."
+    "They joined the lake," you say. "I can show you where."
+    The officer stares at you. "You mean to tell me you knew where they were this whole time and you, what, thought it would be funny to send us on a wild goose chase?" He snaps his notebook closed. "The goddamned nerve of --"
+    "I couldn't remember," you interrupt. "Now I do. They need you. I wasn't enough."
+    He looks you up and down, still scowling. "You must be more banged up than you look," he says finally. "If they're trapped somewhere, let's go."
+    He waves forward impatiently, and follows you as you lead him past the emergency vehicles and the rushing EMTs and the spotlights and down
+    down
+    down
+    <i>down</i>
+    to the lake.
+    -
+    ->next
+    =next
     The current end of the WIP
     -> END
+    
+    
+    
+    
+    
+    
+    
+    
+    

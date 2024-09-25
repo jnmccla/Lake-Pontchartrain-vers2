@@ -224,11 +224,69 @@ You spot an exit sign that actually advertises more than just RV hookup sites an
     "Get us the <i>fuck</i> out of here!" Derek yelled.
     You cranked up the car and the man backed away a step. Before you could see what his next move was, you slid the stick into gear and slammed on the gas, fishtailing wildly through the parking lot and onto the road.
     You head back to the Interstate, operating almost more on memory than sight as your wipers struggled to keep up with the rain.
+    You felt hopeful as your memory did, in fact, lead you back to the interstate, but as you were about to turn on the ramp --
+    "Stop!" Amber shouted, grabbing onto your shoulder, causing you to jerk the steering wheel.
+    You skidded to a halt. "Amber what the hell?"
+    "The Intersate," Derek answered for her, both of them pointing.
+    You followed their fingers. "Jesus <i>shit</i>," you cursed. It was nothing but rushing water. You had to find another way to go.
+    Derek and Amber opened the map between them as you kept an eye out for that crazy guy or any other weird shit that could make your day even worse.
+    "I think," Amber said after a few minutes, "this way, to the south. That should get us back on the right track."
+    "South it is," you said, and started driving.
+    You weren't on the road long before you could see a forest in the distance. "You sure this is the right way?" you asked.
+    "Yeah," Derek said.
+    He sounded so confident that you ignored the uneasy twist in your gut and kept going forward, into the dense woods.
+    *->
+        -> road_through_woods
+    
+    = reckless
+        Visibility wasn't too much of an issue for you, but the rain brought another danger: flooding. You heard sharp intakes of breath from the back of the car when you skid over the first puddle, but you took it in stride. You tried driving toward the middle of the road, since there were no other cars to worry about. It worked. For another few miles, at least. The next puddle you hit was less of a puddle and more like a pond, powerwashing the underside of your car as you hit it.
+        "Dude, I think we need to get off the Interstate. There's got to be another way to go," Derek said, leaning forward.
+        * (risk)[Keep risking the Intersate.]
+            "I got this," you insist.
+            "If you're sure..."
+            You ignored the doubt in his voice and kept driving.
+            You were able to take the next few puddles, but then you hit a stream, deeper and flowing faster than you could tell just from looking.
+            Screams filled the car as you were swept off the road.
+            You turned the wheel and slammed the brakes uselessly. You have never felt so out of control. Amber grabbed onto your shoulder, nails digging in through your shirt.
+            ** [Hold her hand.]
+                You couldn't do any steering, anyway. You placed one of your hands over Amber's, and she overlapped her thumb over yours. Derek's hand joined on top a moment later.
+            ** [Keep your hands on the wheel.]
+                You couldn't risk not having your full focus on trying to regain control of the car, but you felt even more helpless as it went through dip in the swampy landscape, jostling the car. You felt a slight stab of pain as Amber's hand was forcibly removed as she fell to the back of the car.
+            --
+                You were all at the mercy of the rushing waters, and it seemed there was little mercy to be had, as you rushed ever closer to the tree line.
+                "Hold on!" you shouted. You crouched low into the seat and hung onto the steering wheel for dear life as the flood slammed you into a tree, spinning the car violently then slamming you into another, then another like you were trapped in a giant pachinko machine.
+                You closed your eyes, arms now tight over your head as you shrunk further until you were almost wedged under the steering wheel.
+                You don't know how long you were like that before you realized the car had stopped.
+                Cautiously, you straightened up and looked around.
+                "Is it over?" Amber asked.
+                The rain still poured hard overhead, but you were on solid ground, one tire on the shoulder of a road.
+                You quickly settled back into your seat and carefully nudged on the gas. The wheels spun for a moment, then caught purchase and pulled your car onto the pavement. You let out an audible sigh of relief. "I think it is."
+                "Let's get the fuck out of here, then," Derek said.
+                You couldn't tell which way would get you to New Orleans, but anywhere was better than here. You picked a direction and started driving.
+                *->
+                    ->road_through_woods
+            
+        * [Find an exit.]
+            You took the next exit you saw. There were no amenities listed, but you weren't in a position to be picky. Just like you couldn't be picky about having to turn right, as you could see tell tale floating debris on the road to the left. The right side must have been on a higher elevation or something. You didn't question it -- whatever got you away from the rising waters was good in your book.
+            It didn't take long for you to wonder if perhaps you should have thought harder about your options, as a forest loomed ahead.
+            "Maybe the trees will help block the water?" Amber suggested.
+            You shrugged. You didn't know enough about trees or floods to say if that made any sense.
+            "Yeah, let's go with that," Derek said.
+            * ->
+                ->road_through_woods
     -
     -> road_through_woods
-    =road_through_woods
-    -
--> officer_questions.next
+      =road_through_woods 
+      {risk:Your relief at being back on solid ground was short lived|Your apprehension about driving through the woods was justified}, as the road ahead disappeared. You couldn't tell if the dark water had overtaken it, or if it simply dipped or turned in a way that your headlights couldn't illuminate. What you could see was a sign, just a little farther ahead, but you couldn't make out what it was.
+      You carefully drove forward inch by inch until it was finally illuminated:
+      <b>Lake Ponchartrain</b>
+      TODO: Figure out what an actual sign would say beyond just the lake name
+      You slam on the breaks, throwing you all forward, even at the snails pace you were going.
+      * {food =="crawfish"} [You hear something.]
+        ->ate_Crawfish
+      * {food != "crawfish"} [Your every hair stands on end.]
+        ->not_Crawfish
+
 
 
 
